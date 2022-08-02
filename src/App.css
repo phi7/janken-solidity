@@ -32,3 +32,154 @@
   border-radius: 5px;
   
 }
+
+.robotImg{
+  font-size: 48px;
+}
+
+.selectAnnoucement{
+  margin:auto;
+}
+
+.miningFalseParent {
+  display:flex;
+  font-size: 24px;
+	font-weight: bold;
+  margin:auto;
+  align-items: baseline;
+}
+
+.miningZ1{
+  font-size: 24px;
+  animation: flashZ1 1s linear infinite;
+}
+
+.miningZ2{
+  font-size: 18px;
+  animation: flashZ2 1s linear infinite;
+
+}
+
+.miningZ3{
+  font-size: 12px;
+  animation: flashZ3 1s linear infinite;
+
+}
+
+
+
+.miningTrueParent{
+  display:flex;
+  margin:auto;
+  font-size: 24px;
+	font-weight: bold;
+}
+
+.miningSweat{
+  animation: flash 1s linear infinite;
+}
+
+.miningSpark{
+  animation: flash 0.5s linear infinite;
+}
+
+.miningStone{
+
+}
+
+.miningPickel{
+  animation:0.5s linear infinite rotationPickel;
+}
+
+@keyframes rotationPickel{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(-45deg); }
+}
+
+@keyframes rotation1{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(-45deg); }
+}
+
+@keyframes flash {
+  0%,100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes flashZ1 {
+  0%,33% {
+    opacity: 1;
+  }
+
+  66%,99%,100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flashZ2 {
+  0%,33%,66% {
+    opacity: 1;
+  }
+
+  99%,100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flashZ3 {
+  0%,33%,66%,99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.jankenButtonList{
+  display: flex;
+  /* margin:auto; */
+}
+
+.guButton{
+  font-size: 24px;
+	font-weight: bold;
+  margin:auto;
+  background-color: white;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: red;
+  box-shadow: 2px 2px grey;
+}
+
+.tyokiButton{
+  font-size: 24px;
+	font-weight: bold;
+  margin:auto;
+  background-color: white;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: yellow;
+  box-shadow: 2px 2px grey;
+
+}
+
+.paButton{
+  font-size: 24px;
+	font-weight: bold;
+  margin:auto;
+  background-color: white;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: blue;
+  box-shadow: 2px 2px grey;
+}
+
+.addressParent {
+  display: flex;
+}
